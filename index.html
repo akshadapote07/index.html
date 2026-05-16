@@ -157,17 +157,31 @@ button:hover{
     margin-bottom:8px;
 }
 
-.progress{
-    height:8px;
-    background:rgba(255,255,255,0.1);
-    border-radius:10px;
+body {
+    margin: 0;
+    background: #021b35;
+    font-family: Arial, sans-serif;
 }
 
-.progress span{
-    display:block;
-    height:100%;
-    background:#c8a85d;
-    border-radius:10px;
+.container {
+    display: flex;
+    flex-wrap: wrap;   /* next line if needed */
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    background: #10233d;
+    border: 1px solid #2c3e50;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
 /* FOOTER */
@@ -295,50 +309,22 @@ Welcome to My Portfolio
 
 
 <section id="skills">
+    <section id="skills">
     <div class="small-title">EXPERTISE</div>
     <div class="big-title">Technical Skills</div>
 
 
-        <div class="card">
-            <div class="skill-title"><span>HTML</span><span>90%</span></div>
-            <div class="progress"><span style="width:90%"></span></div>
-        </div>
-
-        <div class="card">
-            <div class="skill-title"><span>CSS</span><span>85%</span></div>
-            <div class="progress"><span style="width:85%"></span></div>
-        </div>
-
-        <div class="card">
-            <div class="skill-title"><span>JavaScript</span><span>78%</span></div>
-            <div class="progress"><span style="width:78%"></span></div>
-        </div>
-
-        <div class="card">
-            <div class="skill-title"><span>Python</span><span>75%</span></div>
-            <div class="progress"><span style="width:75%"></span></div>
-        </div>
-
-        <div class="card">
-            <div class="skill-title"><span>C</span><span>80%</span></div>
-            <div class="progress"><span style="width:80%"></span></div>
-        </div>
-    <div class="card">
-            <div class="skill-title">C++<span>78%</span></div>
-            <div class="progress"><span style="width:78%"></span></div>
-        </div>
-
-<div class="card">
-            <div class="skill-title"> Web Designing <span>88%</span></div>
-            <div class="progress"><span style="width:88%"></span></div>
-        </div>
+        <div class="container">
+        <div class="box">HTML</div>
+        <div class="box">CSS</div>
+        <div class="box">JavaScript</div>
+        <div class="box">Python</div>
+        <div class="box">C Programing </div>
+        <div class="box">AI/Ml</div>
+        <div class="box">Front-end </div>
 
 
-
-<div class="card">
-            <div class="skill-title">AI<span>72%</span></div>
-            <div class="progress"><span style="width:72%"></span></div>
-        </div>
+    </div>
 
 
 </section>
